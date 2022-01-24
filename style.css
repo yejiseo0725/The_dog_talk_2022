@@ -25,7 +25,7 @@ h1 {
   top: 20px;
   font-weight: 600;
 }
-.box:nth-child(1) {
+.box:first-child {
   background-color: tomato;
 }
 .box:nth-child(2) {
@@ -34,7 +34,7 @@ h1 {
 .box:nth-child(3) {
   background-color: burlywood;
 }
-.box:nth-child(4) {
+.box:last-child {
   background-color: thistle;
 }
 .desc_box > p {
