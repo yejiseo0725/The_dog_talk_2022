@@ -6,7 +6,7 @@
     <title>The Dog Talk</title>
     <style>
       body {
-        height: 300vh;
+        height: 100vh;
         background-color: #dcdcdc;
       }
       h1 {
@@ -22,19 +22,15 @@
         width: 200px;
         border: 5px solid white;
         margin: 10px;
+        position: relative;
       }
       .desc_box {
         height: 80px;
         width: 201px;
         background-color: white;
-      }
-      p,
-      span {
-        margin-left: 5px;
-        padding-top: 7px;
-      }
-      span {
-        font-size: 10px;
+        position: absolute;
+        top: 20px;
+        font-weight: 600;
       }
       .box:nth-child(1) {
         background-color: tomato;
@@ -47,6 +43,14 @@
       }
       .box:nth-child(4) {
         background-color: thistle;
+      }
+      .desc_box > p {
+        font-size: 20px;
+        margin: 10px;
+      }
+      .desc_box > span {
+        font-size: 12px;
+        margin-left: 10px;
       }
     </style>
   </head>
