@@ -6,37 +6,78 @@
     <title>The Dog Talk</title>
     <style>
       body {
-        height: 1000vh;
-        background-color: gainsboro;
+        height: 300vh;
+        background-color: #dcdcdc;
       }
       h1 {
         text-align: center;
       }
-      div {
+      .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .box {
         height: 300px;
         width: 200px;
-        border: 3px solid white;
+        border: 5px solid white;
+        margin: 10px;
       }
-      .first {
+      .desc_box {
+        height: 80px;
+        width: 201px;
+        background-color: white;
+      }
+      p,
+      span {
+        margin-left: 5px;
+        padding-top: 7px;
+      }
+      span {
+        font-size: 10px;
+      }
+      .box:nth-child(1) {
         background-color: tomato;
       }
-      div:last-child {
-        background-color: thistle;
-      }
-      .second {
+      .box:nth-child(2) {
         background-color: teal;
       }
-      .third {
+      .box:nth-child(3) {
         background-color: burlywood;
+      }
+      .box:nth-child(4) {
+        background-color: thistle;
       }
     </style>
   </head>
   <body>
     <h1>The Best Colors</h1>
-    <div class="first"></div>
-    <div class="second"></div>
-    <div class="third"></div>
-    <div></div>
+    <div class="boxes">
+      <div class="box">
+        <div class="desc_box">
+          <p>Tomato</p>
+          <span>#FF6347</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="desc_box">
+          <p>Teal</p>
+          <span>#008080</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="desc_box">
+          <p>Burlywood</p>
+          <span>#DEB887</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="desc_box">
+          <p>Thistle</p>
+          <span>#D7BFD7</span>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
 
