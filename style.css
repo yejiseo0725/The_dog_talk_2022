@@ -87,7 +87,7 @@ body {
 
 .line {
   width: 10px;
-  height: 80px;
+  height: 60px;
   background-color: white;
   margin: 3px;
   animation: sizingLine 1.2s ease-in-out infinite;
