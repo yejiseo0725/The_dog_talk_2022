@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+body {
+  background-color: #b3cee5;
+  font-family: "Permanent Marker", cursive;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-bar__column:first-child span {
+  margin-right: 5px;
+}
