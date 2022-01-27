@@ -126,3 +126,9 @@ table {
 input:focus {
   outline: none;
 }
+
+a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  font-size: 14px;
+}

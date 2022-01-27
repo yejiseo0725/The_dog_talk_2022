@@ -1,0 +1,18 @@
+.nav {
+  background-color: var(--cloudyblue);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* box-sizing: border-box; ~ Magic Line ~ */
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  border-top: 2px dashed rgba(0, 0, 0, 0.3);
+}
+
+.nav__link {
+  color: white;
+}
