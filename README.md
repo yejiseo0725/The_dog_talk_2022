@@ -1,5 +1,7 @@
 # The_dog_talk_2022
 
+<h2>HTML & CSS</h2>
+
 - IDs & Classes
 - HTML Tags
 - Semantic & non-semantic tags
@@ -12,3 +14,12 @@
 - Transitions
 - Animations
 - Media Queries
+-----------------------------------
+- Status Bar
+- Chat
+- Friends
+- Find
+- Settings
+- Message Animations
+- Chats
+- More
